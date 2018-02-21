@@ -1,2 +1,2 @@
 
- [demo](https://kyriedk.github.io/webDesign/GDmap.html)  
+ [mysite](https://kyriedk.github.io/webDesign/GDmap.html)  

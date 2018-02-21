@@ -18,5 +18,4 @@ function displayLocation(position)
     var longitude = position.coords.longitude;
     var div = document.getElementById("location");
     div.innerHTML ="You are at Latitude:" + latitude + ",Longitude:" + longitude ;
-    showMap(position.coords);
 }

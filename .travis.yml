@@ -1,0 +1,34 @@
+
+language: python
+python:
+  - "2.7"
+
+# command to install os packages
+before_install:true
+
+# command to install dependencies
+install:
+  - pip install --quiet coveralls
+
+
+# command to build c files
+before_script:true
+
+
+# command to run tests
+script: 
+  - pytest -v src/test.py 
+
+
+after_success:
+  - coveralls
+
+
+notifications:
+  email:
+    recipients:
+      - dingkaiyz@outlook.com
+
+    on_success: always # default: change
+    on_failure: always # default: always
+
